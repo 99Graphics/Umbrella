@@ -1,0 +1,122 @@
+/************************wraper-footer******************/
+.wraper-footer{
+    width: 100%;
+    background: #020d19;
+    margin-top: -1px;
+}
+.footersocialnetworks{
+    text-align: center;
+    margin-top: 5px;
+}
+.footersocialnetworks li{
+    display: inline-block;
+}
+.footersocialnetworks li a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 999px;
+    text-align: center;
+    background: #28313b;
+    color: #fff;
+    display: inline-block;
+}
+.footersocialnetworks li a:hover{
+    background: #f7a03d;
+}
+.footer-navbar{
+    margin-top: 20px;
+}
+.footer-navbar h4{
+    font-size: 1.5rem;
+    padding: 15px 0;
+}
+.footer-navbar.Y h4{
+    color: #f7a03d;
+} 
+.footer-navbar.b h4{
+    color: #0b75bb;
+}
+.footer-navbar.g h4{
+    color: #79b943;
+}
+.footer-navbar.R h4{
+    color: #de1d7b;
+}
+.footer-navbar li a{
+    color: #fff;
+    padding: 5px 0;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+.footerUmbrella{
+    width: 100%;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.footerUmbrella li{
+    text-align: center;
+    display: inline-block;
+}
+.footerUmbrella li:last-child a{
+    border: none;
+}
+.footerUmbrella li a{
+    color: #fff;
+    font-size: 0.9rem;
+    padding:0 10px;
+    display: inline-block;
+    border-right: 1px solid #fff;
+}
+.wraper-footer .btnUmbrella a{
+    margin-top: 0;
+}
+
+.select select { 
+-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    background: #0c2c4d;
+    background-image: none;
+    border: 1px solid white; 
+} 
+.select { 
+position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    line-height: 3;
+    background: #2c3e5000;
+    overflow: hidden;
+    border-radius:0;
+} 
+.select select { 
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #fff;
+    cursor: pointer; 
+} 
+.select select::-ms-expand { 
+    display: none; 
+}  
+.select::after { 
+    content: '\25BC'; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    padding: 0 1em; 
+    background: #0000; 
+    color: #F39C12;
+    pointer-events: none; 
+}  
+.select::after { 
+    -webkit-transition: .25s all ease; 
+    -o-transition: .25s all ease; 
+    transition: .25s all ease; 
+}

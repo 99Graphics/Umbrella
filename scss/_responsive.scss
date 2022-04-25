@@ -1,0 +1,478 @@
+
+.scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    z-index: 9999;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    background: #323440;
+}
+.scrollup:hover {
+    color: #fff;
+}
+.navbar-toggler {
+    background-color: white;
+    border: 1px solid white;
+}
+.btnlisthol a:hover i {
+  animation: slideright 1s ease-in-out infinite;
+}
+.spinicon {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); 
+} 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); 
+} }
+@keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+} 
+}
+.btnplay img,
+.btnyoutube img,
+.btnliveideos img{
+    -webkit-animation:zoomin 7s linear infinite;
+    -moz-animation:zoomin 7s linear infinite;
+    animation:zoomin 7s linear infinite;
+}
+@-webkit-keyframes zoomin {
+  0% {transform: scale(0.9);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(0.9);}
+}
+ 
+@keyframes slideright {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+
+    transform: translate(15px, 0);
+  }
+}
+@media (min-width: 1800px) {
+.wraper_Faq:before {
+    top: 0px !important;
+}
+}
+@media (min-width: 1600px) {
+.wraper_Faq:before {
+    top: 0px;
+}
+.wraper_Faq.pricingfaq:before {
+    top: 1px;
+}
+}
+@media (max-width: 1600px) {
+.wraper_Faq:before {
+    top: 0px;
+}
+.wraper_Faq.pricingfaq:before {
+    top: 0px;
+}
+}
+@media (max-width: 1440px) {
+.wraper_Faq:before {
+    top: 2px;
+}
+.UMBanner {
+    height: auto;
+}
+}
+@media (max-width: 1299px) {
+.wraper_contactUS,
+.wraper_contactUS2 {
+    overflow: scroll;
+}
+.wraper_contactUS .maps_custom{
+        width: 1278px;
+    padding-right: 169px;
+}
+}
+@media (max-width: 1199px) {
+html{
+    scroll-behavior: smooth;
+    font-size: 80%;
+}
+.navbar-collapse{
+    background: #003c77;
+}
+.Umbrella_Agents h4 {
+    width: 31%;
+}
+.Umbrella_Agents .custom-select {
+    width: 44%;
+}
+.ourServices_list li {
+    width: 22.5%;
+}
+.content-meet-box h4 {
+    padding: 40px;
+}
+.content-meet-box {
+    width: 58%;
+}
+.wraper_contactUS .maps_custom {
+    width: 1073px;
+}
+.hoverboxloca {
+    width: 16rem;
+    left: -86px;
+}
+.current_page_home p {
+    font-size: 1.5rem;
+}
+.wraper_testimonials:before {
+    bottom: -18px;
+    width: 143px;
+    height: 184px;
+    background-size: 143px;
+}
+.wraper_testimonials:after {
+    top: 4px;
+    width: 143px;
+    height: 184px;
+    background-size: 143px;
+}
+.wraper_testimonials{
+    padding-top: 109px;
+}
+.fluid_width {
+    width: 92%;
+}
+.social_netwoks_b {
+    margin-top: 5px;
+}
+
+.picture-of-exp img {
+    width: 152px;
+    height: 152px;
+    border-radius: 999px;
+    margin-top: 10px;
+    margin-left: -8px;
+}
+.picture-of-exp {
+    width: 220px;
+    background: url(../images/mar_exp_back.jpg) no-repeat;
+    background-size: 180px;
+    text-align: center;
+    background-position: center;
+    height: 180px;
+}
+.right_local_ex {
+    width: 100%;
+    margin: auto;
+    margin-left: 17px;
+}
+.trafic_results {
+    padding-top: 16rem;
+}
+.trafic_results h4 {
+    width: 213px;
+}
+.services_in li {
+    width: 22%;
+}
+}
+@media (max-width: 991px) {
+html{
+    scroll-behavior: smooth;
+    font-size: 70%;
+}
+.content_local_ex h2 {
+    font-size: 2.5rem;
+}
+p,
+.btn-Exper,
+.interweb,
+.btnUmbrella a,
+.contentlistSEv h4{
+    font-size: 1.3rem !important;
+}
+.ourServices_list li {
+    width: 29.9%;
+}
+.industry_works {
+    flex-direction: column;
+}
+.works_content,
+.lohgo-here_brand {
+    width: 100%;
+    text-align: center;
+}
+.wraper_testimonials {
+    width: 100%;
+    background: url(../images/testimonilas_bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 160px 0;
+    background-position: center;
+}
+.wraper_contactUS .maps_custom {
+    width: 947px;
+}
+.hoverboxloca {
+    width: 17rem;
+    padding: 10px 13px;
+    left: -80px;
+}
+.hoverboxloca h4 {
+    font-size: 1.5rem;
+}
+.contact_us_add {
+    margin-top: 0;
+}
+.btnliveideos {
+    top: 17%;
+}
+.btnliveideos img{
+    width: 100px;
+}
+.wraper_Faq:before {
+    top: 36px;
+}
+.pic_testi_titl {
+    width: 100%;
+}
+.wraper_contactUS:before {
+    display: none;
+}
+.wraper_testimonials:before {
+    bottom: 0;
+}
+.wraper_testimonials:after {
+    top: 22px;
+}
+.Blogs_pic img {
+    height: 240px;
+}
+.find_herework .form-group {
+    width: 68%;
+    margin-top: 13px;
+}
+.website_seo:after {
+    content: '';
+    width: 60px;
+    height: 76px;
+    background-size: 60px;
+}
+.wraper-quote {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #0a2540 44%, #f6f6f6 44%);
+}
+.underrafic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.trafic_results h4 {
+    width: 80%;
+    margin-bottom: 10px;
+}
+.services_in li {
+    width: 30%;
+}
+.services_in li a {
+    font-size: 1.2rem;
+}
+.case-study-box p:after {
+    top: 16px;
+}
+
+@media (max-width: 767px) {
+.navbar-light {
+    padding: 0 15px;
+}
+.Umbrella_Agents,
+.meetExpertsbox {
+    flex-direction: column;
+}
+
+.Umbrella_Agents h4,
+.Umbrella_Agents .custom-select,
+.btn-search{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.ourServices_list li {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+.title_testmonials h2 {
+    font-size: 2.5rem;
+}
+.testimoniasl h4 {
+    font-size: 1.7rem;
+}
+.Grow_pic{
+    margin-top: 20px;
+}
+.btnyoutube,
+.content-meet-box{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.content-meet-box h4 {
+    font-size: 3rem;
+}
+.leftwidth,
+.rightwidth{
+    width: 100%;
+}
+.footersocialnetworks {
+    text-align: center;
+    margin: 16px 0;
+}
+.footerUmbrella {
+    text-align: center;
+}
+.pxm {
+    padding: 2rem 0px;
+}
+.wraper_contactme{
+    padding-bottom: 2rem;
+}
+.wraper_contactUS {
+    padding-top: 88px;
+}
+.wraper_testimonials {
+    padding: 103px 0;
+}
+.Home-banner {
+    padding: 32px 0;
+}
+.pic_testi_titl {
+    width: 80%;
+}
+.UMBannerInner .Home-banner h1 {
+    font-size: 2.5rem;
+}
+.current_page_home {
+    padding-bottom: 32px;
+}
+.btnliveideos {
+    width: auto;
+    position: absolute;
+    top: 28%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+.wraper_Faq:after,
+.wraper_Faq:before,
+.wraper_testimonials:after,
+.wraper_testimonials:before{
+    display: none;
+}
+.wraper_Faq{
+    padding: 80px 0;
+    padding-top: 120px;
+    background-size: cover !important;
+}
+.ServicesinnerW {
+    padding-bottom: 0;
+}
+.talk_pic img {
+    width: 100%;
+    margin-top: 20px;
+}
+.btnbanner a {
+    margin: 10px 0;
+}
+.find_herework .form-group {
+    width: 100%;
+    margin-top: 18px;
+}
+.find_herework {
+    width: 100%;
+    flex-direction: column;
+}
+.Banner-blog h1 {
+    font-size: 3rem;
+}
+.fluid_width {
+    width: 100%;
+}
+.Local_experts_box_d {
+    padding: 30px;
+    flex-direction: column;
+}
+.umbrellagecy,
+.social_netwoks_b {
+    width: 100%;
+    float: none;
+}
+.right_local_ex {
+    margin-left: 0;
+}
+.wraper-quote {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #0a2540 32%, #f6f6f6 32%);
+}
+.left-widhtF,
+.right-widhtF {
+    width: 100%;
+    float: none;
+}
+.quote-form{
+    margin-top: 50px;
+}
+.trafic_results {
+    padding-top: 0;
+}
+.wraper_Results{
+    padding-bottom: 70px;
+    background-size: cover;
+}
+.services_in li {
+    width: 80%;
+    margin: auto;
+    margin-top: 24px;
+    float: none;
+}
+}
+@media (max-width: 540px) {
+.contact_us_add h2 {
+    font-size: 3rem;
+}
+.exceptionallytitle h2 {
+    font-size: 2.1rem;
+}
+.contact_maps iframe {
+    width: 100%;
+    height: 420px;
+}
+}
+
+@media (max-width: 414px) {
+
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 360px) {
+
+}
+@media (max-width: 320px) {
+
+}
+
+}
